@@ -1,4 +1,4 @@
-name Upoad to S3
+name Upload to S3
 #--------------------#
 # トリガー
 #--------------------#
@@ -14,7 +14,7 @@ on:
 jobs:
   build:
     #-- 仮想マシンのOSを指定
-    runs: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       #-- Gitリポジトリの内容を取得 --#
       - name: Checkout
